@@ -34,7 +34,10 @@ class CircleButton: UIButton {
         self.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
         self.layer.cornerRadius = self.layer.bounds.size.width / 2
         
-        self.layer.borderWidth = 1.0
+        self.layer.borderWidth = 3.0
+        
+        
+        
         
     }
   
